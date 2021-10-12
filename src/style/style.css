@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700&display=swap');
+
+.container {
+    width: 375px;
+    height: 730px;
+    background: linear-gradient(180deg, #ff85e4 0%, #229efd 179.25%);
+    border: 12px solid rgba(255, 255, 255, 0.6);
+    border-radius: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+}
+
+.container_categories {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 290px;
+    height: 430px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding-top: 10px;
+}
+
+.data {
+    width: 140px;
+    height: 34px;
+    background-color: #c889d3;
+    opacity: 0.9;
+    border-radius: 40px;
+    color: #ffffff;
+    margin: 10px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.date {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.weather {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 315px;
+    height: 165px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 40px;
+}
+
+.temp {
+    text-align: center;
+    height: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 15px;
+    color: #F5F5F5;
+    margin-top: 50px;
+}
+
+.fran {
+    margin-left: 200px;
+    height: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 15px;
+    color: #F5F5F5;
+    margin-top: 40px;
+}
+
+.text {
+    width: 57px;
+    height: 38px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    color: black;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 40px 20px 20px;
+    align-items: center;
+}
+
+.text_info {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
